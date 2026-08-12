@@ -1,5 +1,6 @@
-# Superstore_Analytics
-An end-to-end data engineering and analytics project that takes raw e-commerce data through a complete ETL pipeline using Python and MySQL, ultimately feeding a Power BI Command Center designed to diagnose profit leaks and optimize logistical strategies.
+# Superstore Profitability Command Center
+
+> An end-to-end data engineering and analytics project designed to diagnose profit leaks and optimize logistical strategies.
 
 ---
 
@@ -41,5 +42,5 @@ To uncover these insights, a complete End-to-End Analytics Architecture was engi
 | :--- | :--- | :--- |
 | **Data Preparation** | Python & Pandas | Extracted raw, messy CSV files and wrote Python scripts to clean the data, handle missing values, and standardize formatting. |
 | **Relational Modeling** | MySQL | Loaded the clean data into a structured MySQL database, utilizing SQL JOINs and aggregations to query complex business questions. |
-| **Visualization & Storytelling** | Power BI | Connected Power BI directly to the database to build an interactive, KPI-driven "Command Center" dashboard for seamless stakeholder navigation. |
+| **Visualization & Storytelling** | Power BI & DAX | Connected Power BI directly to the database, engineering custom **DAX formulas** to calculate complex metrics, dynamic KPIs, and build an interactive "Command Center" dashboard. |
 | **System Automation** | ETL Pipelines | Wrapped the entire process into an automated ETL (Extract, Transform, Load) pipeline, ensuring the dashboard updates dynamically as new synthetic transaction data is generated. |
